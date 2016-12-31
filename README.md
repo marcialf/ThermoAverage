@@ -41,6 +41,16 @@ until finished
 
 End with an example of getting some data out of the system or using it for a little demo
 
+
+## Examples
+
+This library including the following example:
+
+[](exampleLICENSE)
+1. DHT11Default: To sample the temperature and humidity.
+1. DHT11WithRawBits: To sample the temperature and humidity, output the 40 raw bits.
+
+
 ## Running the tests
 
 Explain how to run the automated tests for this system
