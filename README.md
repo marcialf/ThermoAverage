@@ -13,6 +13,8 @@ Arduino Nano 328/168
 Arduino Mini
 ```
 
+Software: Any Arduino IDE >= 1.3.0 should be fine
+
 ### Hardware Installation
 
 The ThermoAverage use any Analog Input.
