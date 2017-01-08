@@ -22,12 +22,13 @@
 
 #include "Arduino.h"
 
-#define DEFAULT_NOMINAL_RESISTANCE  10000
-#define DEFAULT_SERIES_RESISTANCE   10000
-#define DEFAULT_BETA_COEFFICIENT    3950
-#define DEFAULT_NOMINAL_TEMPERATURE 25
-#define AREF						0
-#define ADC_SIZE					10
+#define DEFAULT_NOMINAL_RESISTANCE	10000
+#define DEFAULT_SERIES_RESISTANCE	10000
+#define DEFAULT_BETA_COEFFICIENT	3950
+#define DEFAULT_NOMINAL_TEMPERATURE	25
+#define AREF				0
+#define ADC_SIZE			10
+#define DEFAULT_SAMPLE_SIZE		10  
 
 class ThermoAverage {
   public:
@@ -46,7 +47,7 @@ class ThermoAverage {
                   uint32_t seriesResistance = DEFAULT_SERIES_RESISTANCE,
                   uint16_t betaCoefficient = DEFAULT_BETA_COEFFICIENT,
                   uint8_t nominalTemperature = DEFAULT_NOMINAL_TEMPERATURE,
-				  bool useSREF = AREF);
+		  bool useSREF = AREF);
 
     float temperature(void);
  
