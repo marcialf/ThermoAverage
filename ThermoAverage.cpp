@@ -1,5 +1,5 @@
 /*
-* ThermoAverage.cc - library for thermistor average
+  ThermoAverage.cc - library for thermistor average
   
   Copyright (c) Marcial Fernandez 2016
   
@@ -23,22 +23,21 @@
 
 ThermoAverage::ThermoAverage(uint8_t analogPin, uint32_t thermistorResistance, uint32_t seriesResistance,
                              uint16_t betaCoefficient, uint8_t nominalTemperature, bool aref) {
-
-    _analogPin = analogPin;
-    _thermistorResistance = thermistorResistance;
-    _seriesResistance = seriesResistance;
-    _betaCoefficient = betaCoefficient;
-    _nominalTemperature = nominalTemperature;
-    analogReference(aref? EXTERNAL: DEFAULT);     // set analog reference to 5 V or 3.3 V
+	_analogPin = analogPin;
+    	_thermistorResistance = thermistorResistance;
+    	_seriesResistance = seriesResistance;
+    	_betaCoefficient = betaCoefficient;
+    	_nominalTemperature = nominalTemperature;
+    	analogReference(aref? EXTERNAL: DEFAULT);     // set analog reference to 5 V or 3.3 V
 	}
 	
 float ThermoAverage::temperature(void) {	
-    return temperature(1);
+    return temperature(DEFAULT_SAMPLE_SIZE);
 }
 	
 float ThermoAverage::temperature(uint8_t _samples) {
 
-    // take temperature samples
+    // take temperature samples and calculate average
     float average = 0;
  
     for (uint8_t i = 0; i < _samples; i++) {
