@@ -26,6 +26,8 @@ The VCC can be 5 V or 3.3 V (better...).
 [[https://github.com/marcialf/ThermoAverage/thermistor.PNG|alt=thermistor]]
 
 
+![solarized dualmode](https://github.com/altercation/solarized/raw/master/img/solarized-dualmode.png)
+
 ### Library Installation
 
 1. Download the ZIP file from https://github.com/marcialf/ThermoAverage/archive/master.zip
