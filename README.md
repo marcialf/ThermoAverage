@@ -21,7 +21,7 @@ The ThermoAverage use any Analog Input.
 
 The VCC can be 5 V or 3.3 V (better...).
 
-![thermnistor](https://raw.githubusercontent.com/marcialf/ThermoAverage/thermistor.png)
+![thermistor](https://github.com/marcialf/ThermoAverage/thermistor.png)
 
 
 ### Library Installation
