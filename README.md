@@ -23,7 +23,7 @@ The VCC can be 5 V or 3.3 V (better...).
 
 ![thermistor](https://github.com/marcialf/ThermoAverage/thermistor.png)
 
-[[https://github.commarcialf/ThermoAverage/thermistor.png|alt=thermistor]]
+[[https://github.com/marcialf/ThermoAverage/thermistor.png|alt=thermistor]]
 
 
 ### Library Installation
