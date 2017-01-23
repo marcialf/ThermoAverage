@@ -21,12 +21,8 @@ The ThermoAverage use any Analog Input.
 
 The VCC can be 5 V or 3.3 V (better...).
 
-![thermistor](https://github.com/marcialf/ThermoAverage/blob/master/thermistor.PNG)
+![diagram](https://github.com/marcialf/ThermoAverage/blob/master/thermistor.PNG)
 
-[[https://github.com/marcialf/ThermoAverage/thermistor.PNG|alt=thermistor]]
-
-
-![solarized dualmode](https://github.com/altercation/solarized/raw/master/img/solarized-dualmode.png)
 
 ### Library Installation
 
