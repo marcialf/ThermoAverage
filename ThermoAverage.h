@@ -26,7 +26,7 @@
 #define DEFAULT_SERIES_RESISTANCE	10000
 #define DEFAULT_BETA_COEFFICIENT	3435
 #define DEFAULT_NOMINAL_TEMPERATURE	25
-#define AREF				0
+#define AREF				0	// 5 VCC = OFF, 3.3 V = ON
 #define ADC_SIZE			10	// Arduino is 10
 #define DEFAULT_SAMPLE_SIZE		10  
 
