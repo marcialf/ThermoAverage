@@ -27,7 +27,7 @@
 #define DEFAULT_BETA_COEFFICIENT	3435
 #define DEFAULT_NOMINAL_TEMPERATURE	25
 #define AREF				0
-#define ADC_SIZE			10
+#define ADC_SIZE			10	// Arduino is 10
 #define DEFAULT_SAMPLE_SIZE		10  
 
 class ThermoAverage {
@@ -35,12 +35,11 @@ class ThermoAverage {
 
     /**
      * @param analogPin          The analog pin where the thermistor is connected to.
-     * @param adcSize            The ADC size. This is usually ADC_SIZE_10_BIT.
-     * @param nominalResistance  The nominal resistance at 25 degrees celsius.
-     * @param seriesResistance   The value of the series resistor.
+     * @param nominalResistance  The thermistor nominal resistance at 25 degrees celsius.
+     * @param seriesResistance   The value of the serie resistor.
      * @param betaCoefficient    The beta coefficient of the thermistor.
      * @param nominalTemperature The temperature for nominal resistance. This is usually 25.
-     * @param samples            The number of samples to take for temperature smoothing.
+     * @param useAREF            If uses AREF refenece voltagem (needed for VCC = 3.3V)
      */
     ThermoAverage(uint8_t analogPin,
                   uint32_t thermistorResistance = DEFAULT_NOMINAL_RESISTANCE,
